@@ -9,7 +9,7 @@ For the player module do the following:
 In your project's `index.html` file, paste this:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/AvidAndAmateur/EasyP5jsPlayer@main/player.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AvidAndAmateur/EasyP5js@main/player.js"></script>
 ```
 
 This ensures the library is loaded and findable.
