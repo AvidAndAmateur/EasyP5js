@@ -18,7 +18,7 @@ This ensures the library is loaded and findable.
 
 ## Usage
 
-Once the player variable is made (for example a variable named `player`), create it using:
+Once a variable for the player is made you must assign the player object to it, you can do this by using:
 
 ```javascript
 player = makePlayer();
@@ -36,7 +36,7 @@ Where `x` is the desired amount.
 
 ---
 
-### Set player image
+### To set player image
 
 ```javascript
 player.setImage(img);
@@ -46,7 +46,7 @@ Where `img` is your `loadImage()` variable.
 
 ---
 
-### Show player
+### To show player image
 
 ```javascript
 player.show(x, y);
