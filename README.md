@@ -109,7 +109,7 @@ function draw() {
 }
 ```
 ---
-##Usage of EasyP5js enemy
+## Usage of EasyP5js enemy
 Once a variable for the player is made you must assign the enemy object to it, you can do this by using:
 ```javascript
 enemy = makeEnemy(A,B,C,X,Y)
