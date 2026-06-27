@@ -7,7 +7,6 @@ class Player {
         this.attacking = null;
         this.vel;
         this.gravity;
-        
     }
 
     setHealth(h) {
@@ -43,10 +42,18 @@ class Player {
         if (this.image) {
             image(this.image, this.pos.x, this.pos.y,sizex,sizey);
         }
+        else{
+            show_default()
+        }
     }
     show_default(){ //if player has no image they should use this to show basic obj
         ellipse(this.pos.x, this.pos.y, 50);
     }
+    attack(){
+        this.attacking=true
+        setTimeout(()=>this.attack=false,1500)
+    }
+
 }
 
 function makePlayer() { //self explanatory
