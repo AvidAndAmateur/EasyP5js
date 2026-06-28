@@ -132,4 +132,4 @@ Where:
 - `C` = Desired damage (when attacking player)
 - `X` = Desired X position (leave blank for random)
 - `Y` = Desired Y position (leave blank for random)
-As of 27/06/26 (DD/MM/YY) certain variables do not have a custom set function like player does for health
+- As of 27/06/26 (DD/MM/YY) certain variables do not have a custom set function like player does for health
